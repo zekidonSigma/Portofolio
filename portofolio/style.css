@@ -1,0 +1,88 @@
+body {
+    background-color: #F0F0F0;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+
+.id {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.main {
+    height: 60vh;
+    justify-content: space-between;
+}
+
+
+.img {
+    float: left;
+    margin-right: 100px;
+    margin-left: 7%; 
+    border-radius: 50%;
+    height: 350px;
+}
+
+.profile {
+    padding: 25px;
+    margin-top: 3%;
+}
+
+.profile h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 30%;
+}
+
+.profile h2 {
+    margin-left: 30%;
+    max-width: 65%;
+    margin-top: 15px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .head {
+        justify-content: center;
+    }
+
+    .navbar {
+        gap: 6px;
+    }
+
+    .id {
+        font-size: 16px;
+    }
+
+    .img {
+        justify-content: center;
+        height: 200px;
+        float: none;
+        margin-left: 70px;
+    }
+
+    .btn {
+        margin-left: 30vw;
+    }
+}
